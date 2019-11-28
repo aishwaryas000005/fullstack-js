@@ -1,0 +1,9 @@
+{
+    "name" : "manu",
+    "age" : 20,
+    "company" : "testyantra",
+    "salary" : 20000,
+    "username" : function() { 
+
+    }
+}
