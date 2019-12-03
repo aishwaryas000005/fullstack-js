@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+ 
+.logo {
+    /* background: red; */
+    width: 11%;
+    float: left;
+    background: url('../images/sprites.png');
+    height: 50px;
+    background-position: 10px 50px;
+}
+
+
+.leftmenu {
+    /* background: green; */
+    margin: 0px 0px 0px 30px;
+    width: 42%;
+    float: left;
+}
+
+.rightmenu {
+    /* background: yellow; */
+    width: 25%;
+    float: right;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+.leftmenu>ul>li>a, .rightmenu>ul>li>a {
+    color: white;
+    /*text-decoration: overline;*/
+    text-decoration: none;
+    padding: 10px;
+    display :inline-block;
+    /* height: 1000px;   //If the tag is inline, it doesnot support height, width, margin top and bottom, padding property
+    widows: 1000px; */
+    text-transform: capitalize;
+}
+
+.leftmenu>ul>li, .rightmenu>ul>li {
+    display: inline-block
+}
+
+#headerblock {
+    /* padding: 13px; */
+    z-index: 1;
+    position: relative;
+}
+
+/*
+.rightmenu>ul>li:nth-child(4) {
+    background: red;
+}
+
+.rightmenu>ul>li:last-child {
+    padding: 30px;
+}
+*/
+
+.last a {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 4px 20px !important;
+    background: 0,0;
+}
+
+.rightmenu>ul>li:nth-child(2)::after {
+    content: '<';
+    display: inline-block;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+/*slider section css here */
+#sliderSection {
+    color: white;
+    background: url('../images/10-14-50-567_1440x480.jpg'); 
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    /* position: absolute; */
+    top: 0;
+    padding-top: 150px;
+}
+
+#sliderSection>header>h1 {
+    font-size: 32px;
+}
+#sliderSection>footer>form>input {
+    padding: 22px;
+    width: 45%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.searchIcon {
+    position: relative;
+}
+
+.searchIcon i {
+    position: absolute;
+    color: #1119;
+    left: 16px;
+    top: 4px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#sliderSection>footer>form>input::placeholder {
+    padding: 0px 30px;
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+}
+
+.imageText {
+    position: relative;
+}
+
+.imageText>select {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border: none;
+}
+
+.image1 {
+    width: 31.5%;
+    float: left;
+    margin: 0 7px;
+}
+
+.image2 {
+    width: 31.5%;
+    float: left;
+    margin: 0 7px;
+}
+
+.image3 {
+    width: 16%;
+    float: left;
+    margin: 0 7px;
+}
+
+.image4 {
+    width: 16%;
+    float: left;
+    margin: 0 7px;
+}
+
+#imageSection img{
+    width: 100%;
+    height: 300px;
+}
+
+#imageSection {
+    width: 97%;
+    margin: 0 auto;
+}
+
