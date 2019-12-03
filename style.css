@@ -1,10 +1,27 @@
-form {
-    border: 1px solid black;
 
-
+.navbar {
+    background: #d84f57;
+    color: white !important;
 }
 
-input {
-    display: inline-block;
+.jumbotron {
+    background: url('./img/Hero-banner-19th-updated.png');
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+}
 
+.input_pos {
+    position: relative;
+    bottom: -171px;
+}
+.icon-city {
+    font-size: 23px;
+    padding-top: 4.3%;
+    padding-right: 2.4%;
+    padding-left: 2%;
+    color: gray;
+}
+.icon-city:before {
+    content: "\E955";
 }
