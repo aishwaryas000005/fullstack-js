@@ -1,27 +1,38 @@
-
-.navbar {
-    background: #d84f57;
-    color: white !important;
-}
-
-.jumbotron {
-    background: url('./img/Hero-banner-19th-updated.png');
+img {
     width: 100%;
-    background-size: cover;
-    height: 400px;
+    height: 200px;
+    padding: 10px;;
+    border: 1px solid #eee;
 }
 
-.input_pos {
-    position: relative;
-    bottom: -171px;
+body {
+    font-weight: normal;
+    background: #eee;
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.icon-city {
-    font-size: 23px;
-    padding-top: 4.3%;
-    padding-right: 2.4%;
-    padding-left: 2%;
-    color: gray;
+
+#template {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.icon-city:before {
-    content: "\E955";
+
+#movies {
+    width: 24%;
+    margin: 12px 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    height: 420px;
+}
+
+#movies h1 {
+    font-size: 15px;
+    border-bottom: 2px solid #ccc;
+    padding: 14px;
+    font-weight: normal;
 }
